@@ -1,0 +1,11 @@
+D:\SETEC\C# Programming I\Projects\Project2\bin\Debug\Project2.exe.config
+D:\SETEC\C# Programming I\Projects\Project2\bin\Debug\Project2.exe
+D:\SETEC\C# Programming I\Projects\Project2\bin\Debug\Project2.pdb
+D:\SETEC\C# Programming I\Projects\Project2\obj\Debug\Project2.csprojAssemblyReference.cache
+D:\SETEC\C# Programming I\Projects\Project2\obj\Debug\Project2.Form1.resources
+D:\SETEC\C# Programming I\Projects\Project2\obj\Debug\Project2.Properties.Resources.resources
+D:\SETEC\C# Programming I\Projects\Project2\obj\Debug\Project2.csproj.GenerateResource.cache
+D:\SETEC\C# Programming I\Projects\Project2\obj\Debug\Project2.csproj.CoreCompileInputs.cache
+D:\SETEC\C# Programming I\Projects\Project2\obj\Debug\Project2.exe
+D:\SETEC\C# Programming I\Projects\Project2\obj\Debug\Project2.pdb
+D:\SETEC\C# Programming I\Projects\Project2\obj\Debug\Project2.frmDictionary.resources
