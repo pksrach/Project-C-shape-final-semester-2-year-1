@@ -33,57 +33,59 @@ namespace Project2
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.lstWord = new System.Windows.Forms.ListBox();
             this.txtWordMean = new System.Windows.Forms.RichTextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.lbBack = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtSearch
             // 
-            this.txtSearch.Location = new System.Drawing.Point(28, 83);
+            this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearch.Location = new System.Drawing.Point(54, 196);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(328, 29);
+            this.txtSearch.Size = new System.Drawing.Size(263, 28);
             this.txtSearch.TabIndex = 0;
             this.txtSearch.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtSearch_KeyUp);
             // 
             // lstWord
             // 
+            this.lstWord.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.lstWord.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstWord.FormattingEnabled = true;
-            this.lstWord.ItemHeight = 24;
-            this.lstWord.Location = new System.Drawing.Point(28, 127);
+            this.lstWord.ItemHeight = 25;
+            this.lstWord.Location = new System.Drawing.Point(54, 277);
             this.lstWord.Name = "lstWord";
-            this.lstWord.Size = new System.Drawing.Size(328, 532);
+            this.lstWord.Size = new System.Drawing.Size(263, 350);
             this.lstWord.TabIndex = 1;
             this.lstWord.SelectedIndexChanged += new System.EventHandler(this.lstWord_SelectedIndexChanged);
             // 
             // txtWordMean
             // 
             this.txtWordMean.BackColor = System.Drawing.Color.White;
-            this.txtWordMean.Location = new System.Drawing.Point(397, 127);
+            this.txtWordMean.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtWordMean.Font = new System.Drawing.Font("Khmer OS System CN", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtWordMean.Location = new System.Drawing.Point(388, 194);
             this.txtWordMean.Name = "txtWordMean";
-            this.txtWordMean.Size = new System.Drawing.Size(759, 532);
+            this.txtWordMean.Size = new System.Drawing.Size(723, 431);
             this.txtWordMean.TabIndex = 2;
             this.txtWordMean.Text = "";
             // 
-            // label1
+            // lbBack
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(436, 66);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(603, 46);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Dictionary English Khmer Chun Nat";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(28, 23);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 34);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Back";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.lbBack.AutoSize = true;
+            this.lbBack.BackColor = System.Drawing.Color.Transparent;
+            this.lbBack.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lbBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbBack.ForeColor = System.Drawing.Color.Black;
+            this.lbBack.Location = new System.Drawing.Point(12, 9);
+            this.lbBack.Name = "lbBack";
+            this.lbBack.Size = new System.Drawing.Size(66, 29);
+            this.lbBack.TabIndex = 5;
+            this.lbBack.Text = "Back";
+            this.lbBack.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbBack.Click += new System.EventHandler(this.lbBack_Click);
+            this.lbBack.MouseDown += new System.Windows.Forms.MouseEventHandler(this.lbBack_MouseDown);
+            this.lbBack.MouseEnter += new System.EventHandler(this.lbBack_MouseEnter);
+            this.lbBack.MouseLeave += new System.EventHandler(this.lbBack_MouseLeave);
             // 
             // frmDictionary
             // 
@@ -92,17 +94,18 @@ namespace Project2
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1184, 681);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbBack);
             this.Controls.Add(this.txtWordMean);
             this.Controls.Add(this.lstWord);
             this.Controls.Add(this.txtSearch);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmDictionary";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Dictionary";
             this.Load += new System.EventHandler(this.frmDictionary_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -114,7 +117,6 @@ namespace Project2
         private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.ListBox lstWord;
         private System.Windows.Forms.RichTextBox txtWordMean;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lbBack;
     }
 }

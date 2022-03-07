@@ -102,5 +102,28 @@ namespace Project2
                 }
             }
         }
+
+
+        private void lbBack_Click(object sender, EventArgs e)
+        {
+            Form1 frm = new Form1();
+            frm.Show();
+            this.Visible = false;
+        }
+
+        private void lbBack_MouseEnter(object sender, EventArgs e)
+        {
+            lbBack.ForeColor = Color.Red;
+        }
+
+        private void lbBack_MouseDown(object sender, MouseEventArgs e)
+        {
+            lbBack.ForeColor = Color.DarkRed;
+        }
+
+        private void lbBack_MouseLeave(object sender, EventArgs e)
+        {
+            lbBack.ForeColor = Color.Black;
+        }
     }
 }
