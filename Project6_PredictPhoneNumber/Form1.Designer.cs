@@ -36,6 +36,7 @@ namespace Project6_PredictPhoneNumber
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.lbExit = new System.Windows.Forms.Label();
+            this.lbAboutUs = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnOK
@@ -130,6 +131,24 @@ namespace Project6_PredictPhoneNumber
             this.lbExit.MouseLeave += new System.EventHandler(this.lbExit_MouseLeave);
             this.lbExit.MouseHover += new System.EventHandler(this.lbExit_MouseHover);
             // 
+            // lbAboutUs
+            // 
+            this.lbAboutUs.AutoSize = true;
+            this.lbAboutUs.BackColor = System.Drawing.Color.Transparent;
+            this.lbAboutUs.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lbAboutUs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbAboutUs.Font = new System.Drawing.Font("SN KH WAT CHROY THMOR", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbAboutUs.ForeColor = System.Drawing.Color.White;
+            this.lbAboutUs.Location = new System.Drawing.Point(95, 9);
+            this.lbAboutUs.Name = "lbAboutUs";
+            this.lbAboutUs.Size = new System.Drawing.Size(76, 34);
+            this.lbAboutUs.TabIndex = 7;
+            this.lbAboutUs.Text = "អំពីកម្មវិធី";
+            this.lbAboutUs.Click += new System.EventHandler(this.lbAboutUs_Click);
+            this.lbAboutUs.MouseDown += new System.Windows.Forms.MouseEventHandler(this.lbAboutUs_MouseDown);
+            this.lbAboutUs.MouseEnter += new System.EventHandler(this.lbAboutUs_MouseEnter);
+            this.lbAboutUs.MouseLeave += new System.EventHandler(this.lbAboutUs_MouseLeave);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -138,6 +157,7 @@ namespace Project6_PredictPhoneNumber
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1184, 681);
+            this.Controls.Add(this.lbAboutUs);
             this.Controls.Add(this.lbExit);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.richTextBox1);
@@ -145,11 +165,11 @@ namespace Project6_PredictPhoneNumber
             this.Controls.Add(this.txtPhone);
             this.Controls.Add(this.btnOK);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Predict Phone Number";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Shown += new System.EventHandler(this.Form1_Shown);
             this.ResumeLayout(false);
@@ -165,6 +185,7 @@ namespace Project6_PredictPhoneNumber
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label lbExit;
+        private System.Windows.Forms.Label lbAboutUs;
     }
 }
 

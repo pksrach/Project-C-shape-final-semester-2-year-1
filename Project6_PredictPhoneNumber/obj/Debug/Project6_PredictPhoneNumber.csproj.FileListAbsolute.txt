@@ -1,7 +1,6 @@
 D:\SETEC\C# Programming I\Projects\Project6_PredictPhoneNumber\bin\Debug\Project6_PredictPhoneNumber.exe.config
 D:\SETEC\C# Programming I\Projects\Project6_PredictPhoneNumber\bin\Debug\Project6_PredictPhoneNumber.exe
 D:\SETEC\C# Programming I\Projects\Project6_PredictPhoneNumber\bin\Debug\Project6_PredictPhoneNumber.pdb
-D:\SETEC\C# Programming I\Projects\Project6_PredictPhoneNumber\obj\Debug\Project6_PredictPhoneNumber.csprojAssemblyReference.cache
 D:\SETEC\C# Programming I\Projects\Project6_PredictPhoneNumber\obj\Debug\Project6_PredictPhoneNumber.Form1.resources
 D:\SETEC\C# Programming I\Projects\Project6_PredictPhoneNumber\obj\Debug\Project6_PredictPhoneNumber.Properties.Resources.resources
 D:\SETEC\C# Programming I\Projects\Project6_PredictPhoneNumber\obj\Debug\Project6_PredictPhoneNumber.csproj.GenerateResource.cache
@@ -49,3 +48,5 @@ D:\SETEC\C# Programming I\Projects\Project6_PredictPhoneNumber\bin\Debug\es\DevE
 D:\SETEC\C# Programming I\Projects\Project6_PredictPhoneNumber\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
 D:\SETEC\C# Programming I\Projects\Project6_PredictPhoneNumber\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
 D:\SETEC\C# Programming I\Projects\Project6_PredictPhoneNumber\obj\Debug\Project6_PredictPhoneNumber.csproj.CopyComplete
+D:\SETEC\C# Programming I\Projects\Project6_PredictPhoneNumber\obj\Debug\Project6_PredictPhoneNumber.frmAboutUs.resources
+D:\SETEC\C# Programming I\Projects\Project6_PredictPhoneNumber\obj\Debug\Project6_PredictPhoneNumber.csprojAssemblyReference.cache

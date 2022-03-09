@@ -36,6 +36,7 @@ namespace Project6_PredictPhoneNumber
             hash.Add(7, "អ្នកជាមនុស្សឆាប់ ភ័យ ឆាប់តក់ស្លុត ឆាប់ខ្វល់ខ្វាយ ។ ពេលណាខឹងខ្លាំង ច្រើនតែបាត់បង់ម្ចាស់ការ និយាយស្តីច្រើនតែខុស ។ ជួនកាលរឿងមិនត្រូវជា បញ្ហាសោះ ប៉ុន្តែពេលខឹងបែរជានិយាយបង្កើតបញ្ហាធំទៅវិញ ។ ដូច្នេះត្រូវ ព្យាយាមធ្វើចិត្តឱ្យត្រជាក់គិតសិនមុននឹងនិយាយ ។");
             hash.Add(8, "អ្នកជាមនុស្សឆាប់ជឿគេ ឆាប់ទុកចិត្តគេមាននិស្ស័យជាមនុស្សហ៊ានស៊ី ហ៊ានសង ។");
             hash.Add(9, "អ្នកជាមនុស្សបុរាណនិយម អភិរក្សនិយមប្រសិនបើអាយុនៅក្មេងក៏មាន ទស្សនៈបែបជាមនុស្សចាស់ដែរ ។");
+            richTextBox1.ReadOnly = true;
         }
 
         private void txtPhone_TextChanged(object sender, EventArgs e)
@@ -49,7 +50,7 @@ namespace Project6_PredictPhoneNumber
 
         private void lbExit_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -62,7 +63,7 @@ namespace Project6_PredictPhoneNumber
 
         private void lbExit_MouseHover(object sender, EventArgs e)
         {
-            //lbExit.ForeColor = Color.Red;
+            
         }
 
         private void lbExit_MouseLeave(object sender, EventArgs e)
@@ -107,6 +108,28 @@ namespace Project6_PredictPhoneNumber
                 int reResult = Convert.ToInt32(lbResult.Text);
                 richTextBox1.Text = hash[reResult].ToString();
             }
+        }
+
+        private void lbAboutUs_MouseEnter(object sender, EventArgs e)
+        {
+            lbAboutUs.ForeColor = Color.Black;
+        }
+
+        private void lbAboutUs_MouseLeave(object sender, EventArgs e)
+        {
+            lbAboutUs.ForeColor = Color.White;
+        }
+
+        private void lbAboutUs_MouseDown(object sender, MouseEventArgs e)
+        {
+            lbAboutUs.ForeColor = Color.Gray;
+        }
+
+        private void lbAboutUs_Click(object sender, EventArgs e)
+        {
+            frmAboutUs frm = new frmAboutUs();
+            frm.Show();
+            this.Hide();
         }
 
         private void btnOK_Click(object sender, EventArgs e)
