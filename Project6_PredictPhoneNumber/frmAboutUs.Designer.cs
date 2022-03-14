@@ -41,9 +41,10 @@ namespace Project6_PredictPhoneNumber
             this.lbBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lbBack.Font = new System.Drawing.Font("SN KH WAT CHROY THMOR", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbBack.ForeColor = System.Drawing.Color.White;
-            this.lbBack.Location = new System.Drawing.Point(12, 9);
+            this.lbBack.Location = new System.Drawing.Point(16, 11);
+            this.lbBack.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbBack.Name = "lbBack";
-            this.lbBack.Size = new System.Drawing.Size(60, 34);
+            this.lbBack.Size = new System.Drawing.Size(75, 43);
             this.lbBack.TabIndex = 7;
             this.lbBack.Text = "ត្រឡប់";
             this.lbBack.Click += new System.EventHandler(this.lbExit_Click);
@@ -53,18 +54,22 @@ namespace Project6_PredictPhoneNumber
             // 
             // frmAboutUs
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1184, 681);
+            this.ClientSize = new System.Drawing.Size(1579, 838);
             this.Controls.Add(this.lbBack);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmAboutUs";
             this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();
 

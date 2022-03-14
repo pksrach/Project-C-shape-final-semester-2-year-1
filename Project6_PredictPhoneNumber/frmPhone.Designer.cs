@@ -1,7 +1,7 @@
 ﻿
 namespace Project6_PredictPhoneNumber
 {
-    partial class Form1
+    partial class frmPhone
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Project6_PredictPhoneNumber
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPhone));
             this.btnOK = new System.Windows.Forms.Button();
             this.txtPhone = new System.Windows.Forms.TextBox();
             this.lbResult = new System.Windows.Forms.Label();
@@ -61,10 +61,10 @@ namespace Project6_PredictPhoneNumber
             this.txtPhone.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPhone.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.txtPhone.Location = new System.Drawing.Point(383, 158);
+            this.txtPhone.Location = new System.Drawing.Point(369, 159);
             this.txtPhone.MaxLength = 11;
             this.txtPhone.Name = "txtPhone";
-            this.txtPhone.Size = new System.Drawing.Size(433, 28);
+            this.txtPhone.Size = new System.Drawing.Size(428, 28);
             this.txtPhone.TabIndex = 1;
             this.txtPhone.TextChanged += new System.EventHandler(this.txtPhone_TextChanged);
             this.txtPhone.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPhone_KeyDown);
@@ -149,14 +149,14 @@ namespace Project6_PredictPhoneNumber
             this.lbAboutUs.MouseEnter += new System.EventHandler(this.lbAboutUs_MouseEnter);
             this.lbAboutUs.MouseLeave += new System.EventHandler(this.lbAboutUs_MouseLeave);
             // 
-            // Form1
+            // frmPhone
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1184, 681);
+            this.ClientSize = new System.Drawing.Size(1155, 681);
             this.Controls.Add(this.lbAboutUs);
             this.Controls.Add(this.lbExit);
             this.Controls.Add(this.button1);
@@ -165,11 +165,14 @@ namespace Project6_PredictPhoneNumber
             this.Controls.Add(this.txtPhone);
             this.Controls.Add(this.btnOK);
             this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Form1";
+            this.Name = "frmPhone";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.TopMost = true;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Shown += new System.EventHandler(this.Form1_Shown);
             this.ResumeLayout(false);

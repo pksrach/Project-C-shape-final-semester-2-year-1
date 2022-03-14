@@ -19,7 +19,7 @@ namespace Project6_PredictPhoneNumber
 
         private void lbExit_Click(object sender, EventArgs e)
         {
-            Form1 frm = new Form1();
+            frmPhone frm = new frmPhone();
             frm.Show();
             this.Hide();
         }
