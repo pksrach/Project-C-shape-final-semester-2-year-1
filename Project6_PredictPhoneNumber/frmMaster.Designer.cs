@@ -30,28 +30,30 @@ namespace Project6_PredictPhoneNumber
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMaster));
-            this.lbPhone = new System.Windows.Forms.Label();
+            this.lbPredicPhone = new System.Windows.Forms.Label();
             this.lbExit = new System.Windows.Forms.Label();
+            this.lbPredicName = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // lbPhone
+            // lbPredicPhone
             // 
-            this.lbPhone.AutoSize = true;
-            this.lbPhone.BackColor = System.Drawing.Color.Transparent;
-            this.lbPhone.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lbPhone.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lbPhone.Font = new System.Drawing.Font("SN KH WAT CHROY THMOR", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbPhone.ForeColor = System.Drawing.Color.Black;
-            this.lbPhone.Location = new System.Drawing.Point(151, 287);
-            this.lbPhone.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.lbPhone.Name = "lbPhone";
-            this.lbPhone.Size = new System.Drawing.Size(310, 49);
-            this.lbPhone.TabIndex = 8;
-            this.lbPhone.Text = "កម្មវិធី ទស្សន៍ទាយលេខទូរស័ព្ទ";
-            this.lbPhone.Click += new System.EventHandler(this.lbPhone_Click);
-            this.lbPhone.MouseDown += new System.Windows.Forms.MouseEventHandler(this.lbPhone_MouseDown);
-            this.lbPhone.MouseEnter += new System.EventHandler(this.lbPhone_MouseEnter);
-            this.lbPhone.MouseLeave += new System.EventHandler(this.lbPhone_MouseLeave);
+            this.lbPredicPhone.AutoSize = true;
+            this.lbPredicPhone.BackColor = System.Drawing.Color.Transparent;
+            this.lbPredicPhone.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lbPredicPhone.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbPredicPhone.Font = new System.Drawing.Font("SN KH WAT CHROY THMOR", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbPredicPhone.ForeColor = System.Drawing.Color.Black;
+            this.lbPredicPhone.Location = new System.Drawing.Point(160, 287);
+            this.lbPredicPhone.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lbPredicPhone.Name = "lbPredicPhone";
+            this.lbPredicPhone.Size = new System.Drawing.Size(310, 49);
+            this.lbPredicPhone.TabIndex = 8;
+            this.lbPredicPhone.Text = "កម្មវិធី ទស្សន៍ទាយលេខទូរស័ព្ទ";
+            this.lbPredicPhone.Click += new System.EventHandler(this.lbPhone_Click);
+            this.lbPredicPhone.MouseDown += new System.Windows.Forms.MouseEventHandler(this.lbPhone_MouseDown);
+            this.lbPredicPhone.MouseEnter += new System.EventHandler(this.lbPhone_MouseEnter);
+            this.lbPredicPhone.MouseLeave += new System.EventHandler(this.lbPhone_MouseLeave);
             // 
             // lbExit
             // 
@@ -73,6 +75,37 @@ namespace Project6_PredictPhoneNumber
             this.lbExit.MouseEnter += new System.EventHandler(this.lbExit_MouseEnter);
             this.lbExit.MouseLeave += new System.EventHandler(this.lbExit_MouseLeave);
             // 
+            // lbPredicName
+            // 
+            this.lbPredicName.AutoSize = true;
+            this.lbPredicName.BackColor = System.Drawing.Color.Transparent;
+            this.lbPredicName.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lbPredicName.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbPredicName.Font = new System.Drawing.Font("SN KH WAT CHROY THMOR", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbPredicName.ForeColor = System.Drawing.Color.Black;
+            this.lbPredicName.Location = new System.Drawing.Point(616, 287);
+            this.lbPredicName.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lbPredicName.Name = "lbPredicName";
+            this.lbPredicName.Size = new System.Drawing.Size(306, 49);
+            this.lbPredicName.TabIndex = 10;
+            this.lbPredicName.Text = "កម្មវិធី ទស្សន៍ទាយលេខឈ្មោះ";
+            this.lbPredicName.Click += new System.EventHandler(this.lbPredicName_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label1.Font = new System.Drawing.Font("SN KH WAT CHROY THMOR", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(1067, 287);
+            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(118, 49);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "កម្មវិធី វេច";
+            // 
             // frmMaster
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 34F);
@@ -80,14 +113,17 @@ namespace Project6_PredictPhoneNumber
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1540, 845);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbPredicName);
             this.Controls.Add(this.lbExit);
-            this.Controls.Add(this.lbPhone);
+            this.Controls.Add(this.lbPredicPhone);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("SN KH WAT CHROY THMOR", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(5, 8, 5, 8);
             this.Name = "frmMaster";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.frmMaster_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -95,7 +131,9 @@ namespace Project6_PredictPhoneNumber
 
         #endregion
 
-        private System.Windows.Forms.Label lbPhone;
+        private System.Windows.Forms.Label lbPredicPhone;
         private System.Windows.Forms.Label lbExit;
+        private System.Windows.Forms.Label lbPredicName;
+        private System.Windows.Forms.Label label1;
     }
 }

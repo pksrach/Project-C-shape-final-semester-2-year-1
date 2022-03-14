@@ -34,17 +34,17 @@ namespace Project6_PredictPhoneNumber
 
         private void lbPhone_MouseEnter(object sender, EventArgs e)
         {
-            lbPhone.ForeColor = Color.Gray;
+            lbPredicPhone.ForeColor = Color.Gray;
         }
 
         private void lbPhone_MouseLeave(object sender, EventArgs e)
         {
-            lbPhone.ForeColor = Color.Black;
+            lbPredicPhone.ForeColor = Color.Black;
         }
 
         private void lbPhone_MouseDown(object sender, MouseEventArgs e)
         {
-            lbPhone.ForeColor = Color.GhostWhite;
+            lbPredicPhone.ForeColor = Color.GhostWhite;
         }
 
         private void lbExit_MouseEnter(object sender, EventArgs e)
@@ -60,6 +60,16 @@ namespace Project6_PredictPhoneNumber
         private void lbExit_MouseDown(object sender, MouseEventArgs e)
         {
             lbExit.ForeColor = Color.DarkRed;
+        }
+
+        private void frmMaster_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void lbPredicName_Click(object sender, EventArgs e)
+        {
+            
         }
     }//
 }//

@@ -61,10 +61,10 @@ namespace Project6_PredictPhoneNumber
             this.txtPhone.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPhone.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.txtPhone.Location = new System.Drawing.Point(369, 159);
+            this.txtPhone.Location = new System.Drawing.Point(373, 159);
             this.txtPhone.MaxLength = 11;
             this.txtPhone.Name = "txtPhone";
-            this.txtPhone.Size = new System.Drawing.Size(428, 28);
+            this.txtPhone.Size = new System.Drawing.Size(424, 28);
             this.txtPhone.TabIndex = 1;
             this.txtPhone.TextChanged += new System.EventHandler(this.txtPhone_TextChanged);
             this.txtPhone.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPhone_KeyDown);
@@ -75,7 +75,7 @@ namespace Project6_PredictPhoneNumber
             this.lbResult.BackColor = System.Drawing.Color.Transparent;
             this.lbResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbResult.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lbResult.Location = new System.Drawing.Point(322, 270);
+            this.lbResult.Location = new System.Drawing.Point(312, 270);
             this.lbResult.Name = "lbResult";
             this.lbResult.Size = new System.Drawing.Size(130, 56);
             this.lbResult.TabIndex = 2;
@@ -87,7 +87,7 @@ namespace Project6_PredictPhoneNumber
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox1.Font = new System.Drawing.Font("SN KH WAT CHROY THMOR", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.richTextBox1.Location = new System.Drawing.Point(76, 398);
+            this.richTextBox1.Location = new System.Drawing.Point(60, 398);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(1036, 221);
             this.richTextBox1.TabIndex = 3;
