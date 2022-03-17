@@ -148,3 +148,4 @@ D:\Git\Project C#\Project6_PredictPhoneNumber\obj\Debug\Project6_PredictPhoneNum
 D:\Git\Project C#\Project6_PredictPhoneNumber\obj\Debug\Project6_PredictPhoneNumber.csproj.CopyComplete
 D:\Git\Project C#\Project6_PredictPhoneNumber\obj\Debug\Project6_PredictPhoneNumber.exe
 D:\Git\Project C#\Project6_PredictPhoneNumber\obj\Debug\Project6_PredictPhoneNumber.pdb
+D:\Git\Project C#\Project6_PredictPhoneNumber\obj\Debug\Project6_PredictPhoneNumber.csprojAssemblyReference.cache
