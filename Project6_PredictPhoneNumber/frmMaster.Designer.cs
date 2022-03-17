@@ -123,6 +123,7 @@ namespace Project6_PredictPhoneNumber
             this.Margin = new System.Windows.Forms.Padding(5, 8, 5, 8);
             this.Name = "frmMaster";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.Load += new System.EventHandler(this.frmMaster_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
