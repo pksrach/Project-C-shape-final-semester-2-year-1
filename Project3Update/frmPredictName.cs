@@ -93,14 +93,19 @@ namespace Project3
                 }
                 else
                     JubTi12Auto();
+                
             }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+           
             if (txtName.Text != "")
             {
                 JubTi12Auto();
+                //linkLabel1_LinkClicked(sender, (LinkLabelLinkClickedEventArgs)e);
+
+
             }
             else txtName.Focus();
         }
@@ -110,17 +115,80 @@ namespace Project3
             txtName.Clear();
             txtName.Focus();
             lblNumber.Text = "0";
-            txtDefinition.Clear();
+            txtDefinition.Text = "";
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //string str = txtDefinition.Text;
+            
             if (txtName.Text == "")
             {
                 lblNumber.Text = "0";
             }
         }
 
+        public void Justify(System.Windows.Forms.Label label)
+        {
+            string text = label.Text;
+            string[] lines = text.Split(new[] { "\r\n" }, StringSplitOptions.None).Select(l => l.Trim()).ToArray();
+
+            List<string> result = new List<string>();
+
+            foreach (string line in lines)
+            {
+                result.Add(StretchToWidth(line, label));
+            }
+
+            label.Text = string.Join("\r\n", result);
+        }
+        private string StretchToWidth(string text, Label label)
+        {
+            if (text.Length < 2)
+                return text;
+
+            // A hair space is the smallest possible non-visible character we can insert
+            const char hairspace = '\u200A';
+
+            // If we measure just the width of the space we might get too much because of added paddings so we have to do it a bit differently
+            double basewidth = TextRenderer.MeasureText(text, label.Font).Width;
+            double doublewidth = TextRenderer.MeasureText(text + text, label.Font).Width;
+            double doublewidthplusspace = TextRenderer.MeasureText(text + hairspace + text, label.Font).Width;
+            double spacewidth = doublewidthplusspace - doublewidth;
+
+            //The space we have to fill up with spaces is whatever is left
+            double leftoverspace = label.Width - basewidth;
+
+            //Calculate the amount of spaces we need to insert
+            int approximateInserts = Math.Max(0, (int)Math.Floor(leftoverspace / spacewidth));
+
+            //Insert spaces
+            return InsertFillerChar(hairspace, text, approximateInserts);
+        }
+
+        private static string InsertFillerChar(char filler, string text, int inserts)
+        {
+            string result = "";
+            int inserted = 0;
+
+            for (int i = 0; i < text.Length; i++)
+            {
+                //Add one character of the original text
+                result += text[i];
+
+                //Only add spaces between characters, not at the end
+                if (i >= text.Length - 1) continue;
+
+                //Determine how many characters should have been inserted so far
+                int shouldbeinserted = (int)(inserts * (i + 1) / (text.Length - 1.0));
+                int insertnow = shouldbeinserted - inserted;
+                for (int j = 0; j < insertnow; j++)
+                    result += filler;
+                inserted += insertnow;
+            }
+
+            return result;
+        }
         private void lblNumber_TextChanged(object sender, EventArgs e)
         {
             
@@ -130,7 +198,8 @@ namespace Project3
         {
             if (lblNumber.Text == "1")
             {
-                txtDefinition.Text = "សម្បូរដោយសេចក្ដីក្លាហាន និងគំនិតផ្សងព្រេង គំនិតអារកាត់ខ្លាំងឯកច្ឆន្ទ។ ជាទូទៅច្រើនប្រកបដោយឆ្មើងឆ្មាតយ៉ាងមាំទាំ និងថាមពខាងចរិយាដ៏ធំចំពោះសត្រូវ។ ជាមនុស្សកើតមកសម្រាប់ធ្វើមេគេ ឬជាអ្នកល្បីល្បាញ ប្រសិនបើជាគ្មានកាលៈទេសៈអ្វីមកខ្ចាស់ការរីកចម្រើនខាងផ្លូវគំនិតរបស់គេទេ។";
+                
+               txtDefinition.Text = "សម្បូរដោយសេចក្ដីក្លាហាន និងគំនិតផ្សងព្រេង គំនិតអារកាត់ខ្លាំងឯកច្ឆន្ទ។ ជាទូទៅច្រើនប្រកបដោយឆ្មើងឆ្មាតយ៉ាងមាំទាំ និងថាមពខាងចរិយាដ៏ធំចំពោះសត្រូវ។ ជាមនុស្សកើតមកសម្រាប់ធ្វើមេគេ ឬជាអ្នកល្បីល្បាញ ប្រសិនបើជាគ្មានកាលៈទេសៈអ្វីមកខ្ចាស់ការរីកចម្រើនខាងផ្លូវគំនិតរបស់គេទេ។";
             }
             else if (lblNumber.Text == "2")
             {
@@ -174,9 +243,9 @@ namespace Project3
             }
             else
             {
-                txtDefinition.Clear();
+                txtDefinition.Text = "";
             }
-            
+            //Justify(txtDefinition);
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -232,7 +301,7 @@ namespace Project3
             }
             else
             {
-                txtDefinition.Clear();
+                txtDefinition.Text = "";
             }
         }
 
@@ -276,7 +345,7 @@ namespace Project3
             }
             else
             {
-                txtDefinition.Clear();
+                txtDefinition.Text = "";
             }
         }
 
@@ -320,7 +389,7 @@ namespace Project3
             }
             else
             {
-                txtDefinition.Clear();
+                txtDefinition.Text = "";
             }
         }
 
@@ -364,8 +433,13 @@ namespace Project3
             }
             else
             {
-                txtDefinition.Clear();
+                txtDefinition.Text = "";
             }
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }///
 }///
