@@ -18,3 +18,13 @@ D:\SETEC\C#\Project3\obj\Debug\Project3.csproj.GenerateResource.cache
 D:\SETEC\C#\Project3\obj\Debug\Project3.csproj.CoreCompileInputs.cache
 D:\SETEC\C#\Project3\obj\Debug\Project3.exe
 D:\SETEC\C#\Project3\obj\Debug\Project3.pdb
+D:\Git\Project C#\Project3Update\bin\Debug\Project3.exe.config
+D:\Git\Project C#\Project3Update\bin\Debug\Project3.exe
+D:\Git\Project C#\Project3Update\bin\Debug\Project3.pdb
+D:\Git\Project C#\Project3Update\obj\Debug\Project3.csprojAssemblyReference.cache
+D:\Git\Project C#\Project3Update\obj\Debug\Project3.frmPredictName.resources
+D:\Git\Project C#\Project3Update\obj\Debug\Project3.Properties.Resources.resources
+D:\Git\Project C#\Project3Update\obj\Debug\Project3.csproj.GenerateResource.cache
+D:\Git\Project C#\Project3Update\obj\Debug\Project3.csproj.CoreCompileInputs.cache
+D:\Git\Project C#\Project3Update\obj\Debug\Project3.exe
+D:\Git\Project C#\Project3Update\obj\Debug\Project3.pdb

@@ -1,7 +1,7 @@
 ﻿
 namespace Project3
 {
-    partial class Form1
+    partial class frmPredictName
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Project3
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPredictName));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();

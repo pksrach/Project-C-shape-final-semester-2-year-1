@@ -11,11 +11,11 @@ using System.Collections;
 
 namespace Project6_PredictPhoneNumber
 {
-    public partial class Form1 : Form
+    public partial class frmPhone : Form
     {
         int result = 0, sumJ = 0;
         Hashtable hash = new Hashtable();
-        public Form1()
+        public frmPhone()
         {
             InitializeComponent();
         }
@@ -50,7 +50,7 @@ namespace Project6_PredictPhoneNumber
 
         private void lbExit_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
