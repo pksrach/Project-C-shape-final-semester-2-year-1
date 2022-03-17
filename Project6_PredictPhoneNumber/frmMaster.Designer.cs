@@ -33,15 +33,20 @@ namespace Project6_PredictPhoneNumber
             this.lbPredicPhone = new System.Windows.Forms.Label();
             this.lbExit = new System.Windows.Forms.Label();
             this.lbPredicName = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lbDictionary = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // lbPredicPhone
             // 
+            this.lbPredicPhone.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbPredicPhone.AutoSize = true;
             this.lbPredicPhone.BackColor = System.Drawing.Color.Transparent;
             this.lbPredicPhone.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -81,46 +86,46 @@ namespace Project6_PredictPhoneNumber
             // 
             // lbPredicName
             // 
+            this.lbPredicName.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbPredicName.AutoSize = true;
             this.lbPredicName.BackColor = System.Drawing.Color.Transparent;
             this.lbPredicName.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbPredicName.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lbPredicName.Font = new System.Drawing.Font("SN KH WAT CHROY THMOR", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbPredicName.ForeColor = System.Drawing.Color.Black;
-            this.lbPredicName.Location = new System.Drawing.Point(616, 287);
+            this.lbPredicName.Location = new System.Drawing.Point(108, 28);
             this.lbPredicName.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lbPredicName.Name = "lbPredicName";
-            this.lbPredicName.Size = new System.Drawing.Size(306, 49);
+            this.lbPredicName.Size = new System.Drawing.Size(258, 49);
             this.lbPredicName.TabIndex = 10;
-            this.lbPredicName.Text = "កម្មវិធី ទស្សន៍ទាយលេខឈ្មោះ";
+            this.lbPredicName.Text = "កម្មវិធី ទស្សន៍ទាយឈ្មោះ";
             this.lbPredicName.Click += new System.EventHandler(this.lbPredicName_Click);
+            this.lbPredicName.MouseDown += new System.Windows.Forms.MouseEventHandler(this.lbPredicName_MouseDown);
+            this.lbPredicName.MouseEnter += new System.EventHandler(this.lbPredicName_MouseEnter);
+            this.lbPredicName.MouseLeave += new System.EventHandler(this.lbPredicName_MouseLeave);
             // 
-            // label1
+            // lbDictionary
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Font = new System.Drawing.Font("SN KH WAT CHROY THMOR", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(1067, 287);
-            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(118, 49);
-            this.label1.TabIndex = 11;
-            this.label1.Text = "កម្មវិធី វេច";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(46, 404);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(462, 126);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 13;
-            this.pictureBox1.TabStop = false;
+            this.lbDictionary.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbDictionary.AutoSize = true;
+            this.lbDictionary.BackColor = System.Drawing.Color.Transparent;
+            this.lbDictionary.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lbDictionary.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbDictionary.Font = new System.Drawing.Font("SN KH WAT CHROY THMOR", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbDictionary.ForeColor = System.Drawing.Color.Black;
+            this.lbDictionary.Location = new System.Drawing.Point(41, 30);
+            this.lbDictionary.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lbDictionary.Name = "lbDictionary";
+            this.lbDictionary.Size = new System.Drawing.Size(382, 49);
+            this.lbDictionary.TabIndex = 11;
+            this.lbDictionary.Text = "កម្មវិធី វចនានុក្រមនៃបច្ចេកវិទ្យាព័ត៌មាន";
+            this.lbDictionary.MouseDown += new System.Windows.Forms.MouseEventHandler(this.lbDictionary_MouseDown);
+            this.lbDictionary.MouseEnter += new System.EventHandler(this.lbDictionary_MouseEnter);
+            this.lbDictionary.MouseLeave += new System.EventHandler(this.lbDictionary_MouseLeave);
             // 
             // panel1
             // 
@@ -128,10 +133,32 @@ namespace Project6_PredictPhoneNumber
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.lbPredicPhone);
-            this.panel1.Location = new System.Drawing.Point(97, 147);
+            this.panel1.Location = new System.Drawing.Point(87, 258);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(462, 119);
             this.panel1.TabIndex = 14;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Transparent;
+            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel2.Controls.Add(this.lbPredicName);
+            this.panel2.Location = new System.Drawing.Point(539, 258);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(462, 119);
+            this.panel2.TabIndex = 15;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
+            this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel3.Controls.Add(this.lbDictionary);
+            this.panel3.Location = new System.Drawing.Point(991, 259);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(462, 119);
+            this.panel3.TabIndex = 16;
             // 
             // frmMaster
             // 
@@ -140,10 +167,9 @@ namespace Project6_PredictPhoneNumber
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1540, 845);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.lbPredicName);
             this.Controls.Add(this.lbExit);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("SN KH WAT CHROY THMOR", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -153,9 +179,12 @@ namespace Project6_PredictPhoneNumber
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmMaster_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -166,8 +195,9 @@ namespace Project6_PredictPhoneNumber
         private System.Windows.Forms.Label lbPredicPhone;
         private System.Windows.Forms.Label lbExit;
         private System.Windows.Forms.Label lbPredicName;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lbDictionary;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
     }
 }

@@ -71,5 +71,35 @@ namespace Project6_PredictPhoneNumber
         {
             
         }
+
+        private void lbPredicName_MouseEnter(object sender, EventArgs e)
+        {
+            lbPredicName.ForeColor = Color.Gray;
+        }
+
+        private void lbPredicName_MouseDown(object sender, MouseEventArgs e)
+        {
+            lbPredicName.ForeColor = Color.GhostWhite;
+        }
+
+        private void lbPredicName_MouseLeave(object sender, EventArgs e)
+        {
+            lbPredicName.ForeColor = Color.Black;
+        }
+
+        private void lbDictionary_MouseEnter(object sender, EventArgs e)
+        {
+            lbDictionary.ForeColor = Color.Gray;
+        }
+
+        private void lbDictionary_MouseDown(object sender, MouseEventArgs e)
+        {
+            lbDictionary.ForeColor = Color.GhostWhite;
+        }
+
+        private void lbDictionary_MouseLeave(object sender, EventArgs e)
+        {
+            lbDictionary.ForeColor = Color.Black;
+        }
     }//
 }//
