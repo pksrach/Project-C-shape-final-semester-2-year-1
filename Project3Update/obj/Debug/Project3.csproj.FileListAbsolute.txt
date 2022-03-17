@@ -28,3 +28,13 @@ D:\Git\Project C#\Project3Update\obj\Debug\Project3.csproj.GenerateResource.cach
 D:\Git\Project C#\Project3Update\obj\Debug\Project3.csproj.CoreCompileInputs.cache
 D:\Git\Project C#\Project3Update\obj\Debug\Project3.exe
 D:\Git\Project C#\Project3Update\obj\Debug\Project3.pdb
+D:\Project_C#\Project-C-shape-final-semester-2-year-1\Project3Update\bin\Debug\Project3.exe.config
+D:\Project_C#\Project-C-shape-final-semester-2-year-1\Project3Update\bin\Debug\Project3.exe
+D:\Project_C#\Project-C-shape-final-semester-2-year-1\Project3Update\bin\Debug\Project3.pdb
+D:\Project_C#\Project-C-shape-final-semester-2-year-1\Project3Update\obj\Debug\Project3.csproj.AssemblyReference.cache
+D:\Project_C#\Project-C-shape-final-semester-2-year-1\Project3Update\obj\Debug\Project3.frmPredictName.resources
+D:\Project_C#\Project-C-shape-final-semester-2-year-1\Project3Update\obj\Debug\Project3.Properties.Resources.resources
+D:\Project_C#\Project-C-shape-final-semester-2-year-1\Project3Update\obj\Debug\Project3.csproj.GenerateResource.cache
+D:\Project_C#\Project-C-shape-final-semester-2-year-1\Project3Update\obj\Debug\Project3.csproj.CoreCompileInputs.cache
+D:\Project_C#\Project-C-shape-final-semester-2-year-1\Project3Update\obj\Debug\Project3.exe
+D:\Project_C#\Project-C-shape-final-semester-2-year-1\Project3Update\obj\Debug\Project3.pdb
