@@ -88,7 +88,6 @@ D:\Project_C#\Project-C-shape-final-semester-2-year-1\Project6_PredictPhoneNumbe
 D:\Project_C#\Project-C-shape-final-semester-2-year-1\Project6_PredictPhoneNumber\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
 D:\Project_C#\Project-C-shape-final-semester-2-year-1\Project6_PredictPhoneNumber\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
 D:\Project_C#\Project-C-shape-final-semester-2-year-1\Project6_PredictPhoneNumber\obj\Debug\Project6_PredictPhoneNumber.csproj.AssemblyReference.cache
-D:\Project_C#\Project-C-shape-final-semester-2-year-1\Project6_PredictPhoneNumber\obj\Debug\Project6_PredictPhoneNumber.Form1.resources
 D:\Project_C#\Project-C-shape-final-semester-2-year-1\Project6_PredictPhoneNumber\obj\Debug\Project6_PredictPhoneNumber.frmAboutUs.resources
 D:\Project_C#\Project-C-shape-final-semester-2-year-1\Project6_PredictPhoneNumber\obj\Debug\Project6_PredictPhoneNumber.Properties.Resources.resources
 D:\Project_C#\Project-C-shape-final-semester-2-year-1\Project6_PredictPhoneNumber\obj\Debug\Project6_PredictPhoneNumber.csproj.GenerateResource.cache
@@ -149,6 +148,7 @@ D:\Git\Project C#\Project6_PredictPhoneNumber\obj\Debug\Project6_PredictPhoneNum
 D:\Git\Project C#\Project6_PredictPhoneNumber\obj\Debug\Project6_PredictPhoneNumber.exe
 D:\Git\Project C#\Project6_PredictPhoneNumber\obj\Debug\Project6_PredictPhoneNumber.pdb
 <<<<<<< HEAD
+<<<<<<< HEAD
 D:\SETEC\C#\Githum\Project-C-shape-final-semester-2-year-1\Project6_PredictPhoneNumber\bin\Debug\Project6_PredictPhoneNumber.exe.config
 D:\SETEC\C#\Githum\Project-C-shape-final-semester-2-year-1\Project6_PredictPhoneNumber\bin\Debug\Project6_PredictPhoneNumber.exe
 D:\SETEC\C#\Githum\Project-C-shape-final-semester-2-year-1\Project6_PredictPhoneNumber\bin\Debug\Project6_PredictPhoneNumber.pdb
@@ -196,6 +196,10 @@ D:\SETEC\C#\Githum\Project-C-shape-final-semester-2-year-1\Project6_PredictPhone
 D:\SETEC\C#\Githum\Project-C-shape-final-semester-2-year-1\Project6_PredictPhoneNumber\obj\Debug\Project6_PredictPhoneNumber.csproj.CopyComplete
 D:\SETEC\C#\Githum\Project-C-shape-final-semester-2-year-1\Project6_PredictPhoneNumber\obj\Debug\Project6_PredictPhoneNumber.exe
 D:\SETEC\C#\Githum\Project-C-shape-final-semester-2-year-1\Project6_PredictPhoneNumber\obj\Debug\Project6_PredictPhoneNumber.pdb
+=======
+D:\Project_C#\Project-C-shape-final-semester-2-year-1\Project6_PredictPhoneNumber\obj\Debug\Project6_PredictPhoneNumber.frmPhone.resources
+D:\Project_C#\Project-C-shape-final-semester-2-year-1\Project6_PredictPhoneNumber\obj\Debug\Project6_PredictPhoneNumber.frmMaster.resources
+>>>>>>> ae4c209627b4bca82623b9523e4c72e349f55b3e
 =======
 D:\Git\Project C#\Project6_PredictPhoneNumber\obj\Debug\Project6_PredictPhoneNumber.csprojAssemblyReference.cache
 >>>>>>> 97df84524d3ea722a5744f01eb3b3123fbbd98ac
