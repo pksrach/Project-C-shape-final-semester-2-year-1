@@ -12,7 +12,6 @@ D:\SETEC\C# Programming I\Projects\Project2\obj\Debug\Project2.frmDictionary.res
 D:\Git\Project C#\Project2\bin\Debug\Project2.exe.config
 D:\Git\Project C#\Project2\bin\Debug\Project2.exe
 D:\Git\Project C#\Project2\bin\Debug\Project2.pdb
-D:\Git\Project C#\Project2\obj\Debug\Project2.csprojAssemblyReference.cache
 D:\Git\Project C#\Project2\obj\Debug\Project2.Form1.resources
 D:\Git\Project C#\Project2\obj\Debug\Project2.frmDictionary.resources
 D:\Git\Project C#\Project2\obj\Debug\Project2.Properties.Resources.resources

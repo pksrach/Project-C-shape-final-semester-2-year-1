@@ -1,0 +1,58 @@
+Package Report
+
+-----------------------------------------------------------------------------
+Document:
+Name: Untitled-1.ai
+Color Mode: CMYK color
+Color Profile: U.S. Web Coated (SWOP) v2
+Ruler Units: pixels
+Artboard Dimensions: 1200 px x 720 px
+Show Images in Outline Mode: OFF
+Highlight Substituted Fonts: OFF
+Highlight Substituted Glyphs: OFF
+Preserve Text Editability
+Simulate Colored Paper: OFF
+
+-----------------------------------------------------------------------------
+Spot Color Objects:
+
+-----------------------------------------------------------------------------
+Missing Fonts:
+Barlow Light* (not installed)
+AbhayaLibre Regular* (not installed)
+
+-----------------------------------------------------------------------------
+Protected Fonts that were not packaged:NONE
+
+-----------------------------------------------------------------------------
+Fonts:
+Myriad Pro (OTF)
+SN KH WAT CHROY THMOR (OTF)
+
+-----------------------------------------------------------------------------
+Embedded Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Missing Links:
+NONE
+
+-----------------------------------------------------------------------------
+Linked Images:
+
+D:\Git\Project6_PredictPhoneNumberUpdate\bin\Debug\SETECi_Logo.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 7854K, 2362 by 681 pixels
+Dimensions: 456.314 by 131.562 points 
+Resolution: 372.69 by 372.69 pixels per inch
+
+
+D:\Git\Project6_PredictPhoneNumberUpdate\bin\Debug\SETECi_Logo.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 7854K, 2362 by 681 pixels
+Dimensions: 73.388 by 21.159 points 
+Resolution: 2317.332 by 2317.332 pixels per inch

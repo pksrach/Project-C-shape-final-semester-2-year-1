@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0373F352-B248-4FEB-98C1-66CD0C81A472}</ProjectGuid>
+    <ProjectGuid>{10A765C2-9329-48DA-BCA0-B454147DA170}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Project6_PredictPhoneNumber</RootNamespace>
     <AssemblyName>Project6_PredictPhoneNumber</AssemblyName>
@@ -72,6 +72,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmDictionary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDictionary.Designer.cs">
+      <DependentUpon>frmDictionary.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmPhone.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,9 +96,18 @@
     <Compile Include="frmMaster.Designer.cs">
       <DependentUpon>frmMaster.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmPredictName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPredictName.Designer.cs">
+      <DependentUpon>frmPredictName.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Settings.cs" />
+    <EmbeddedResource Include="frmDictionary.resx">
+      <DependentUpon>frmDictionary.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPhone.resx">
       <DependentUpon>frmPhone.cs</DependentUpon>
     </EmbeddedResource>
@@ -101,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmMaster.resx">
       <DependentUpon>frmMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPredictName.resx">
+      <DependentUpon>frmPredictName.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

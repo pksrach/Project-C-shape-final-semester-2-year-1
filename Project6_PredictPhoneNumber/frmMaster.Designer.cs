@@ -117,12 +117,13 @@ namespace Project6_PredictPhoneNumber
             this.lbDictionary.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lbDictionary.Font = new System.Drawing.Font("SN KH WAT CHROY THMOR", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbDictionary.ForeColor = System.Drawing.Color.Black;
-            this.lbDictionary.Location = new System.Drawing.Point(41, 30);
+            this.lbDictionary.Location = new System.Drawing.Point(72, 27);
             this.lbDictionary.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lbDictionary.Name = "lbDictionary";
-            this.lbDictionary.Size = new System.Drawing.Size(382, 49);
+            this.lbDictionary.Size = new System.Drawing.Size(326, 49);
             this.lbDictionary.TabIndex = 11;
-            this.lbDictionary.Text = "កម្មវិធី វចនានុក្រមនៃបច្ចេកវិទ្យាព័ត៌មាន";
+            this.lbDictionary.Text = "កម្មវិធី វចនានុក្រមនៃព័ត៌មានវិទ្យា";
+            this.lbDictionary.Click += new System.EventHandler(this.lbDictionary_Click);
             this.lbDictionary.MouseDown += new System.Windows.Forms.MouseEventHandler(this.lbDictionary_MouseDown);
             this.lbDictionary.MouseEnter += new System.EventHandler(this.lbDictionary_MouseEnter);
             this.lbDictionary.MouseLeave += new System.EventHandler(this.lbDictionary_MouseLeave);
@@ -155,7 +156,7 @@ namespace Project6_PredictPhoneNumber
             this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel3.Controls.Add(this.lbDictionary);
-            this.panel3.Location = new System.Drawing.Point(991, 259);
+            this.panel3.Location = new System.Drawing.Point(991, 258);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(462, 119);
             this.panel3.TabIndex = 16;

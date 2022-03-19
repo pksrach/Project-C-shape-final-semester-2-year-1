@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+﻿using Project2;
+using Project3;
+using System;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Project6_PredictPhoneNumber
@@ -64,12 +60,13 @@ namespace Project6_PredictPhoneNumber
 
         private void frmMaster_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void lbPredicName_Click(object sender, EventArgs e)
         {
-            
+            frmPredictName frm = new frmPredictName();
+            frm.ShowDialog();
         }
 
         private void lbPredicName_MouseEnter(object sender, EventArgs e)
@@ -100,6 +97,12 @@ namespace Project6_PredictPhoneNumber
         private void lbDictionary_MouseLeave(object sender, EventArgs e)
         {
             lbDictionary.ForeColor = Color.Black;
+        }
+
+        private void lbDictionary_Click(object sender, EventArgs e)
+        {
+            frmDictionary frm = new frmDictionary();
+            frm.ShowDialog();
         }
     }//
 }//

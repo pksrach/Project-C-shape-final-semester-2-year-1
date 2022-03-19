@@ -153,3 +153,5 @@ D:\Project_C#\Project-C-shape-final-semester-2-year-1\Project6_PredictPhoneNumbe
 =======
 D:\Git\Project C#\Project6_PredictPhoneNumber\obj\Debug\Project6_PredictPhoneNumber.csprojAssemblyReference.cache
 >>>>>>> 97df84524d3ea722a5744f01eb3b3123fbbd98ac
+D:\Git\Project C#\Project6_PredictPhoneNumber\obj\Debug\Project2.frmDictionary.resources
+D:\Git\Project C#\Project6_PredictPhoneNumber\obj\Debug\Project3.frmPredictName.resources
