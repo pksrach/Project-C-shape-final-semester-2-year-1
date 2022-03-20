@@ -40,15 +40,24 @@ namespace Project_All_in_one
             this.linkLabel4 = new System.Windows.Forms.LinkLabel();
             this.linkLabel5 = new System.Windows.Forms.LinkLabel();
             this.txtDefinition = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtName
             // 
+            this.txtName.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtName.BackColor = System.Drawing.Color.White;
             this.txtName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtName.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtName.Location = new System.Drawing.Point(498, 169);
+            this.txtName.Location = new System.Drawing.Point(14, 8);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(313, 28);
+            this.txtName.Size = new System.Drawing.Size(310, 28);
             this.txtName.TabIndex = 0;
             this.txtName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtName.TextChanged += new System.EventHandler(this.txtName_TextChanged);
@@ -56,11 +65,14 @@ namespace Project_All_in_one
             // 
             // lblNumber
             // 
+            this.lblNumber.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNumber.AutoSize = true;
             this.lblNumber.BackColor = System.Drawing.Color.Transparent;
             this.lblNumber.Font = new System.Drawing.Font("Khmer OS Battambang", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNumber.ForeColor = System.Drawing.Color.ForestGreen;
-            this.lblNumber.Location = new System.Drawing.Point(404, 245);
+            this.lblNumber.Location = new System.Drawing.Point(29, 0);
             this.lblNumber.Name = "lblNumber";
             this.lblNumber.Size = new System.Drawing.Size(37, 43);
             this.lblNumber.TabIndex = 3;
@@ -117,6 +129,7 @@ namespace Project_All_in_one
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "បុគ្គលិកលក្ខណៈ";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            this.linkLabel1.MouseHover += new System.EventHandler(this.linkLabel1_MouseHover);
             // 
             // linkLabel2
             // 
@@ -187,6 +200,26 @@ namespace Project_All_in_one
             this.txtDefinition.TabIndex = 13;
             this.txtDefinition.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // panel1
+            // 
+            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.txtName);
+            this.panel1.Location = new System.Drawing.Point(484, 160);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(336, 43);
+            this.panel1.TabIndex = 14;
+            // 
+            // panel2
+            // 
+            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel2.Controls.Add(this.lblNumber);
+            this.panel2.Location = new System.Drawing.Point(380, 243);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(89, 39);
+            this.panel2.TabIndex = 15;
+            // 
             // frmPredictName
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -195,6 +228,8 @@ namespace Project_All_in_one
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1184, 681);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.txtDefinition);
             this.Controls.Add(this.linkLabel5);
             this.Controls.Add(this.linkLabel4);
@@ -203,8 +238,6 @@ namespace Project_All_in_one
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnOK);
-            this.Controls.Add(this.lblNumber);
-            this.Controls.Add(this.txtName);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -216,6 +249,11 @@ namespace Project_All_in_one
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.Shown += new System.EventHandler(this.frmPredictName_Shown);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -232,6 +270,8 @@ namespace Project_All_in_one
         private System.Windows.Forms.LinkLabel linkLabel4;
         private System.Windows.Forms.LinkLabel linkLabel5;
         private System.Windows.Forms.Label txtDefinition;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
     }
 }
 

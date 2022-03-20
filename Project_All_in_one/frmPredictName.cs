@@ -67,6 +67,7 @@ namespace Project_All_in_one
                     fullName = fullName + "0";
                 }
             }//foreach
+             //= fullname = abc=  fullname="123"
             while (fullName.Length > 1)
             {
                 char[] arr = fullName.ToCharArray();
@@ -94,22 +95,37 @@ namespace Project_All_in_one
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
             if (txtName.Text != "")
             {
                 JubTi12Auto();
-                //linkLabel1_LinkClicked(sender, (LinkLabelLinkClickedEventArgs)e);
                 linkLabel1_LinkClicked(null,null);
+                //linkLabel1.LinkColor = Color.Red;
+                myLinkColor(true);
             }
             else txtName.Focus();
         }
-
+        //private bool click = false;
+        private bool myLinkColor(bool click)
+        {
+            if(txtName.Text=="" && txtDefinition.Text=="" && lblNumber.Text == "" || lblNumber.Text == "0")
+            {
+                linkLabel1.LinkColor = Color.White;
+            }
+            else
+            {
+                linkLabel1.LinkColor = Color.Red;
+            }
+            if(click==true) linkLabel1.LinkColor = Color.Red;
+            else linkLabel1.LinkColor = Color.White;
+            return click;
+        }
         private void btnClear_Click(object sender, EventArgs e)
         {
             txtName.Clear();
             txtName.Focus();
             lblNumber.Text = "0";
             txtDefinition.Text = "";
+            myLinkColor(false);
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -190,7 +206,6 @@ namespace Project_All_in_one
         {
             if (lblNumber.Text == "1")
             {
-                
                txtDefinition.Text = "សម្បូរដោយសេចក្ដីក្លាហាន និងគំនិតផ្សងព្រេង គំនិតអារកាត់ខ្លាំងឯកច្ឆន្ទ។ ជាទូទៅច្រើនប្រកបដោយឆ្មើងឆ្មាតយ៉ាងមាំទាំ និងថាមពខាងចរិយាដ៏ធំចំពោះសត្រូវ។ ជាមនុស្សកើតមកសម្រាប់ធ្វើមេគេ ឬជាអ្នកល្បីល្បាញ ប្រសិនបើជាគ្មានកាលៈទេសៈអ្វីមកខ្ចាស់ការរីកចម្រើនខាងផ្លូវគំនិតរបស់គេទេ។";
             }
             else if (lblNumber.Text == "2")
@@ -242,7 +257,7 @@ namespace Project_All_in_one
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            myLinkColor(false);
             if (lblNumber.Text == "1")
             {
                 
@@ -299,6 +314,7 @@ namespace Project_All_in_one
 
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            myLinkColor(false);
             if (lblNumber.Text == "1")
             {
                 txtDefinition.Text = "ជនជំពូកលេខ១មានទំនោរចិត្តជាអ្នកត្រួតត្រាហើយចូលចិត្តបញ្ជាលើមនុស្ស ដែលខ្លួនជ្រើសរើសជាគូរគាប់ណាស់។ ច្រើនមានចិត្តប្រចណ្ឌមិនព្រមឱ្យគូរគាប់ របស់ខ្លួនមានចិត្តវៀចវេរទេ។បើរៀបការជាមួយមនុស្សជំពូកលេខ២ និងលេខ៦ទើបល្អ។ មិនសូវល្អជាមួយលេខ៥ ឬលេខ៧ ព្រោះច្រើនទាស់ទែងគ្នា។ ";
@@ -343,6 +359,7 @@ namespace Project_All_in_one
 
         private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            myLinkColor(false);
             if (lblNumber.Text == "1")
             {
                 txtDefinition.Text = "ជាមនុស្សដែលកើតមកសម្រាប់តែបានទទួលជោគជ័យក្នុងអ្វីៗដែលខ្លួនកាន់កាប់។ ថ្វីបើគេជាអ្នកមានគំនិតខាងការបង្កើត ហើយពិចារណាច្រើនក្តី។ មនុស្សជំពូកលេខ១ ធ្វើការក្នុងរដ្ឋបាលក៏ពូកែ រត់ការក៏ពូកែ។ តែទោះជាធ្វើការអ្វីក៏មនុស្សនេះត្រូវកាន់កាប់ការនោះតែម្នាក់ឯង ឬធ្វើជាមេគេទើបស្រប តាមវាសនារបស់គេ ។ តាមពិតទៅថ្វីបើគេជាអ្នកធ្វើការដោយស្វិតស្វាញ និងមនសិការមនុស្សជំពូកលេខ១មិនចូលចិត្តស្ថិតនៅក្រោមឱវាទគេទេ។ ក្នុងទំនាក់ទំនងជាមួយចៅហ្វាយនាយរបស់ខ្លួនមនុស្សជំពូកលេខ១ច្រើនចូលចិត្តកាត់ណាស់។";
@@ -387,6 +404,7 @@ namespace Project_All_in_one
 
         private void linkLabel5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            myLinkColor(false);
             if (lblNumber.Text == "1")
             {
                 txtDefinition.Text = "	មនុស្សជំពូកលេខ១ប្រសប់ប្រកបរបបណាស់ហើយតែងរកចំណេញបានច្រើនផង។ តែជាអកុសលរកបានប៉ុន្មាន ចាយអស់ប៉ុណ្ណឹង បើនិយាយឱ្យខ្លីគឺរកក៏ធូរ ចាយក៏ធូរ។";
@@ -439,6 +457,16 @@ namespace Project_All_in_one
             if (txtName.Text==""){
                 btnClear_Click(null, null);
             }
+        }
+
+        private void frmPredictName_Shown(object sender, EventArgs e)
+        {
+            txtName.Focus();
+        }
+
+        private void linkLabel1_MouseHover(object sender, EventArgs e)
+        {
+            linkLabel1.ForeColor = Color.Red;
         }
     }///
 }///
